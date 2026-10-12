@@ -132,7 +132,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  min-width: 100;
 
   /* 高さはcarousel-itemに揃える */
   height: 32rem;
@@ -325,3 +325,14 @@ p {
     line-height: 35px;
   }
 }
+
+/* ----------------------------------------------- CHEF */
+
+ /* CHEFクラスのあとに"シェフ"の文字を追加  */
+ .chef::after {
+   content: "シェフ";
+ }
+
+ .chef_bg {
+   background-color: #fdf5e6;
+ }
